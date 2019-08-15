@@ -1,11 +1,11 @@
 {
   "name": "reapop-theme-wybo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official theme for Reapop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass src/styles/styles.scss -o lib",
+    "build": "node-sass src/styles/styles.module.scss -o lib",
     "prepublish": "npm run build"
   },
   "repository": {
